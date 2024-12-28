@@ -1,0 +1,116 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #004080;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Semester and Subject List */
+.semester {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.semester h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.subject-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subject-list li {
+    margin: 10px 0;
+}
+
+.subject-list a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.subject-list a:hover {
+    color: #005bb5;
+}
+
+.syllabus-link {
+    font-size: 0.9rem;
+    color: #ff6347;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.syllabus-link:hover {
+    color: #ff4500;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

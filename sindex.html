@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments - Kalalingam University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Departments at Kalalingam University</h1>
+        <p>Select a department to learn more!</p>
+    </header>
+
+    <!-- Departments Section -->
+    <section class="departments">
+        <h2>Our Departments</h2>
+        <div class="department-container">
+            <div class="department-card" onclick="navigateTo('departments/cse.html')">
+                <h3>Computer Science Engineering</h3>
+                <p>Explore the world of technology and innovation!</p>
+            </div>
+
+            <div class="department-card" onclick="navigateTo('departments/mech.html')">
+                <h3>Mechanical Engineering</h3>
+                <p>Engineering excellence in design and mechanics!</p>
+            </div>
+
+            <div class="department-card" onclick="navigateTo('departments/ece.html')">
+                <h3>Electronics and Communication Engineering</h3>
+                <p>Shaping the future of electronics and communication!</p>
+            </div>
+
+            <div class="department-card" onclick="navigateTo('departments/eee.html')">
+                <h3>Electrical Engineering</h3>
+                <p>Innovating solutions in electrical systems!</p>
+            </div>
+            <div class="department-card" onclick="navigateTo('departments/it.html')">
+                <h3>Information Technology</h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kalalingam University | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
